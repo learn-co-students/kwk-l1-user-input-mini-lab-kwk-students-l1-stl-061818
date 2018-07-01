@@ -1,0 +1,18 @@
+def visit
+puts "Where do you want to visit?"
+gets.chomp 
+end
+def stay
+puts"where do you want to stay?"
+gets.chomp 
+end
+def food
+puts"what food do you want to eat?"
+gets.chomp
+end
+def nights
+puts"How many nights do you want to stay?"
+gets.chomp
+end 
+
+puts"So you will be going to #{visit} for #{nights} nights. You will stay at a #{stay} and eat #{food} food."
